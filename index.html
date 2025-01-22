@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Dashboard</title>
+</head>
+
+<body class="dark-mode-body">
+    <div class="container">
+        <aside class="sidebar dark-mode-sidebar">
+            <h1 class="heading dark-mode-heading">Dashdark X</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for..." class="dark-mode-input">
+            </div>
+            <nav>
+                <ul class="sidebar-menu dark-mode-sidebar-menu">
+                    <li>
+                        <span>Dashboard</span>
+                    </li>
+                    <li>
+                        <span>All pages</span>
+                    </li>
+                    <li class="active">
+                        <span>Reports</span>
+                    </li>
+                    <li>
+                        <span>Products</span>
+                    </li>
+                    <li>
+                        <span>Task</span>
+                    </li>
+                    <li class="dropdown">
+                        <i class="bi bi-star-fill"></i>
+                        <span>Features
+                            <i class="bi bi-chevron-down dropdown-icon"></i>
+                        </span>
+                        <ul class="submenu dark-mode-submenu">
+                            <li>Feature 1</li>
+                            <li>Feature 2</li>
+                            <li>Feature 3</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <i class="bi bi-person-circle"></i>
+                        <span>Users
+                            <i class="bi bi-chevron-down dropdown-icon"></i>
+                        </span>
+                        <ul class="submenu dark-mode-submenu">
+                            <li>Admin Users</li>
+                            <li>Guest Users</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <i class="bi bi-currency-dollar"></i>
+                        <span>Pricing
+                            <i class="bi bi-chevron-down dropdown-icon"></i>
+                        </span>
+                        <ul class="submenu dark-mode-submenu">
+                            <li>Basic Plan</li>
+                            <li>Premium Plan</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <i class="bi bi-puzzle-fill"></i>
+                        <span>Integrations
+                            <i class="bi bi-chevron-down dropdown-icon"></i>
+                        </span>
+                        <ul class="submenu dark-mode-submenu">
+                            <li>API 1</li>
+                            <li>API 2</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <i class="bi bi-gear"></i>
+                        <span>Settings
+                            <i class="bi bi-chevron-down dropdown-icon"></i>
+                        </span>
+                        <ul class="submenu dark-mode-submenu">
+                            <li>General</li>
+                            <li>Account</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="user-info">
+                <div class="user">
+                    <img src="./images/user.jpg" alt="User Profile" class="user-avatar">
+                    <span>John Carter</span>
+                </div>
+                <a href="#" class="settings-link">Account settings</a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            
+            <div class="header">
+                
+                <h2>Welcome back, John</h2>
+                <p>Measure your advertising ROI and report website traffic.</p>
+                <div class="header-buttons">
+                    <button class="toggle-sidebar">
+                        <i class="bi bi-list"></i> Menu
+                    </button>
+                    <button class="dark-mode-button toggle-mode"><i class="bi bi-moon-fill"></i></button>
+                    <button class="dark-mode-button">Export data</button>
+                    <button class="dark-mode-button">Create report</button>
+                </div>
+            </div>
+
+
+
+            <div class="stats ">
+                <div class="card stat-box dark-mode-card">
+
+                    <h3><i class="bi bi-eye stats-icon"></i>Pageviews</h3>
+                    <div class="stats-value">
+                        <p class="value">50.8K</p>
+                        <p class="percentage positive">+24.7%</p>
+                    </div>
+                </div>
+                <div class="card stat-box dark-mode-card">
+                    <h3><i class="bi bi-person-fill stats-icon"></i>Monthly users</h3>
+                    <div class="stats-value">
+                        <p class="value">23.6K</p>
+                        <p class="percentage negative">-12.9%</p>
+                    </div>
+                </div>
+                <div class="card stat-box dark-mode-card">
+                    <h3><i class="bi bi-plus-circle-fill stats-icon"></i>New sign ups</h3>
+                    <div class="stats-value">
+                        <p class="value">756</p>
+                        <p class="percentage positive">+31.7%</p>
+                    </div>
+                </div>
+                <div class="card stat-box dark-mode-card">
+                    <h3><i class="bi bi-star-fill stats-icon"></i>Subscriptions</h3>
+                    <div class="stats-value">
+                        <p class="value">2.3K</p>
+                        <p class="percentage negative">-11.2%</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="reports-overview">
+                <div class="col revenue dark-mode-card card">
+
+                    <h3>Total revenue</h3>
+                    <div class="reports-value">
+                        <div class="head">
+                            <p>$240.8K</p>
+                            <p class="percentage positive">24.6%<i class="bi bi-arrow-up-right head-icon"></i></p>
+                        </div>
+                        <div class="body">
+                            <p class="body-p"><i class="bi bi-dot body-icon"></i>Revenue</p>
+                            <p class="body-p"><i class="bi bi-dot body-icon"></i>Expenses</p>
+                            <div class="reports-dropdown">
+                                <button class="dropbtn">📅 Jan 2024 - Dec 2024 ▼</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Jan 2024-May 2024</a>
+                                    <a href="#">Jun 2024 - Sept 2024</a>
+                                    <a href="#">Oct 2024 - Dec 2024</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="./images/graph.svg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="col profit-and-sessions dark-mode-card card">
+
+                    <div class="row profit-overview">
+                        <h3><i class="bi bi-graph-up-arrow"></i>Total profit</h3>
+                        <div class="head">
+                            <p>$144.6K</p>
+                            <p class="percentage positive">27.6%<i class="bi bi-arrow-up-right head-icon"></i></p>
+                        </div>
+                        <div class="image">
+                            <img src="./images/bar-graph.svg" alt="">
+                        </div>
+                        <hr class="after-image">
+                        <div class="view-report">
+                            <p>Last 12 months</p>
+                            <a href="">view report</a>
+                        </div>
+                    </div>
+
+
+<hr>
+
+                    <div class="row session-overview">
+                        <h3><i class="bi bi-stopwatch-fill"></i>Total sessions</h3>
+                        <div class="head">
+                            <p>400</p>
+                            <p class="percentage positive">27.6%<i class="bi bi-arrow-up-right head-icon"></i></p>
+                        </div>
+                        <div class="image">
+                            <img src="./images/line-graph.svg" alt="">
+                        </div>
+                        <hr class="after-image">
+                        <div class="view-report">
+                            <p>10K visitors</p>
+                            <a href="">view report</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
