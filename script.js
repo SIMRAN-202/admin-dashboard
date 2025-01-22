@@ -1,3 +1,5 @@
+//javascript for dropdowns
+
 document.querySelectorAll('.dropdown').forEach(dropdown => {
     dropdown.addEventListener('click', function (e) {
         e.stopPropagation(); // Prevent event bubbling
@@ -17,15 +19,6 @@ document.addEventListener('click', () => {
     });
 });
 
-
-
-
-
-$(document).ready(function () {
-    $('.toggle-sidebar').on('click', function () {
-        $('.sidebar').toggleClass('open');
-    });
-});
 
 
 
